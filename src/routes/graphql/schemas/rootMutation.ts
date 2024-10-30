@@ -3,7 +3,6 @@ import { ChangeUserInput, CreateUserInput, User } from '../types/user.js';
 import { ChangeProfileInput, CreateProfileInput, Profile } from '../types/profile.js';
 import { ChangePostInput, CreatePostInput, Post } from '../types/post.js';
 import { UUIDType } from '../types/uuid.js';
-import { subscribe } from 'diagnostics_channel';
 
 export const rootMutation = new GraphQLObjectType({
   name: 'rootMutation',
